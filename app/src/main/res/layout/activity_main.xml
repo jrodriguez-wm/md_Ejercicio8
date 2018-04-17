@@ -17,7 +17,7 @@
             app:menu="@menu/navigation_menu"
             app:theme="@style/BottomNavigationTheme"
 
-            app:itemTextColor="@color/colorAccent" />
+            app:itemIconTint="@color/colorAccent"/>
 
     </android.support.design.widget.CoordinatorLayout>
 
