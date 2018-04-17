@@ -4,6 +4,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_id"
+        android:text="@string/recents"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -11,13 +21,11 @@
         <android.support.design.widget.BottomNavigationView
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:id="@+id/buttomNavigation_id"
+            android:id="@+id/bottomNavigation_id"
             android:layout_gravity="bottom"
             android:background="?android:attr/windowBackground"
             app:menu="@menu/navigation_menu"
-            app:theme="@style/BottomNavigationTheme"
-
-            app:itemIconTint="@color/colorAccent"/>
+            app:theme="@style/BottomNavigationTheme" />
 
     </android.support.design.widget.CoordinatorLayout>
 
