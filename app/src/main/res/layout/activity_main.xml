@@ -15,7 +15,9 @@
             android:layout_gravity="bottom"
             android:background="?android:attr/windowBackground"
             app:menu="@menu/navigation_menu"
-            app:theme="@style/BottomNavigationTheme" />
+            app:theme="@style/BottomNavigationTheme"
+
+            app:itemBackground="@color/colorAccent" />
 
     </android.support.design.widget.CoordinatorLayout>
 
